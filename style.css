@@ -1,5 +1,65 @@
+/* Tag selector to select the 'body' element */
 body {
   width: 100%;
   height: 100%;
   margin: 0;
+  background-color: #00b3e6;
+}
+
+/* Tag selector to select all 'div' elements. We only have one 'div' in our HTML */
+div {
+  width: 700px;
+  margin: auto;
+  font-family: "Helvetica Neue", sans-serif;
+  background-color: white;
+  padding: 30px;
+  text-align: center;
+}
+
+/* ID selector to select the element with id 'main-header' */
+#main-header {
+  font-size: 22px;
+  color: red;
+  text-align: center;
+}
+
+/* Class selector to select elements containing the class 'perspective-questions' */
+.perspective-questions {
+  font-style: italic;
+}
+
+/* Center the image */
+img {
+  display: block;
+  margin: auto;
+}
+
+/* Style navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey;
+  display: inline-block;
+  text-align: center;
+}
+
+/* Style the image caption */
+.caption {
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Style text block within #featured-property */
+#featured-property p {
+  width: 800px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Make #details section horizontal */
+#details div {
+  float: left;
+  width: 25%;
+  background-color: lightgrey;
+  text-align: center;
+  padding: 10px;
 }
